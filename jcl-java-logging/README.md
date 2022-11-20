@@ -1,3 +1,4 @@
 # jcl-java-logging
 
-Demo app showcasing JCL logging framework with default Java logging.
+Demo app showcasing [Apache Commons Logging](https://en.wikipedia.org/wiki/Apache_Commons_Logging)
+framework with default Java logging.

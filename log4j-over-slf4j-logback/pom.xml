@@ -2,18 +2,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ocarlsen.app</groupId>
-    <artifactId>log4j-over-slf4j-logback</artifactId>
-    <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <parent>
+        <groupId>com.ocarlsen.prod.example</groupId>
+        <artifactId>logging-examples</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <name>my-app</name>
-    <url>http://maven.apache.org</url>
+    <artifactId>log4j-over-slf4j-logback</artifactId>
+
+    <name>log4j-over-slf4j-logback</name>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
         <logback-classic.version>1.1.7</logback-classic.version>
         <log4j-over-slf4j.version>1.7.20</log4j-over-slf4j.version>
     </properties>

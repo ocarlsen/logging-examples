@@ -2,18 +2,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ocarlsen.app</groupId>
-    <artifactId>jcl-log4j2-logging</artifactId>
-    <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <parent>
+        <groupId>com.ocarlsen.prod.example</groupId>
+        <artifactId>logging-examples</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <name>my-app</name>
-    <url>http://maven.apache.org</url>
+    <artifactId>jcl-log4j2-logging</artifactId>
+
+    <name>jcl-log4j2-logging</name>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
         <log4j-core.version>2.8.2</log4j-core.version>
     </properties>
 

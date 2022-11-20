@@ -2,18 +2,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ocarlsen.app</groupId>
-    <artifactId>slf4j-log4j-logging</artifactId>
-    <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <parent>
+        <groupId>com.ocarlsen.prod.example</groupId>
+        <artifactId>logging-examples</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <name>my-app</name>
-    <url>http://maven.apache.org</url>
+    <artifactId>slf4j-log4j-logging</artifactId>
+
+    <name>slf4j-log4j-logging</name>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
         <slf4j-api.version>1.7.7</slf4j-api.version>
         <slf4j-log4j12.version>1.7.21</slf4j-log4j12.version>
     </properties>
