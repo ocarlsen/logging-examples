@@ -1,5 +1,4 @@
-# acl-over-slf4j-logback
+# acl-over-log4j
 
 Demo app showcasing [Apache Commons Logging](https://en.wikipedia.org/wiki/Apache_Commons_Logging) framework
-bridge to SLF4J framework
-with a Logback binding.
+with Log4j.

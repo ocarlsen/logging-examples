@@ -1,3 +1,3 @@
 # logback
 
-Demo app showcasing Logback logging.
+Demo app showcasing [Logback](https://logback.qos.ch/) logging framework.
