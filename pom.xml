@@ -67,17 +67,17 @@
     <modules>
         <module>jul</module>
         <module>jul-over-slf4j-logback</module>
-        <module>jcl-java-logging</module>
-        <module>jcl-log4j-logging</module>
-        <module>jcl-log4j2-logging</module>
-        <module>jcl-over-slf4j-logback</module>
-        <module>jcl-simple-logging</module>
+        <module>acl-jul-logging</module>
+        <module>acl-log4j-logging</module>
+        <module>acl-log4j2-logging</module>
+        <module>acl-over-slf4j-logback</module>
+        <module>acl-simple-logging</module>
         <module>log4j-logging</module>
         <module>log4j-over-slf4j-logback</module>
         <module>log4j2-logging</module>
         <module>log4j2-over-slf4j-logback</module>
         <module>logback-logging</module>
-        <module>slf4j-java-logging</module>
+        <module>slf4j-jul-logging</module>
         <module>slf4j-log4j-logging</module>
         <module>slf4j-log4j2-logging</module>
         <module>slf4j-logback-logging</module>
