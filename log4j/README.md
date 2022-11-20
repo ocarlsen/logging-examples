@@ -1,3 +1,3 @@
-# log4j-logging
+# log4j
 
 Demo app showcasing Log4j logging.

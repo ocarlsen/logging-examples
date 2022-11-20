@@ -71,12 +71,12 @@
         <module>acl-log4j-logging</module>
         <module>acl-log4j2-logging</module>
         <module>acl-over-slf4j-logback</module>
-        <module>acl-simple-logging</module>
-        <module>log4j-logging</module>
+        <module>acl-simple</module>
+        <module>log4j</module>
         <module>log4j-over-slf4j-logback</module>
-        <module>log4j2-logging</module>
+        <module>log4j2</module>
         <module>log4j2-over-slf4j-logback</module>
-        <module>logback-logging</module>
+        <module>logback</module>
         <module>slf4j-jul-logging</module>
         <module>slf4j-log4j-logging</module>
         <module>slf4j-log4j2-logging</module>

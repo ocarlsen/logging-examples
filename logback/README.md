@@ -1,3 +1,3 @@
-# logback-logging
+# logback
 
 Demo app showcasing Logback logging.

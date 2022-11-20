@@ -8,9 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>acl-simple-logging</artifactId>
+    <artifactId>acl-simple</artifactId>
 
-    <name>acl-simple-logging</name>
+    <name>acl-simple</name>
 
     <dependencies>
         <dependency>
