@@ -7,7 +7,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>acl-java-logging</name>
+    <name>logging-examples</name>
 
     <url>https://github.com/ocarlsen/logging-examples</url>
 
@@ -65,8 +65,8 @@
     </build>
 
     <modules>
-        <module>java-logging</module>
-        <module>java-over-slf4j-logback</module>
+        <module>jul</module>
+        <module>jul-over-slf4j-logback</module>
         <module>jcl-java-logging</module>
         <module>jcl-log4j-logging</module>
         <module>jcl-log4j2-logging</module>
