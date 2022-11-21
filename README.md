@@ -1,4 +1,19 @@
 # Logging Examples
 
-* [java-logging](./java-logging/README.md)
-* TODO: The rest
+* [acl-over-jul](./acl-over-jul/README.md)
+* [acl-over-log4j](./acl-over-log4j/README.md)
+* [acl-over-log4j2](./acl-over-log4j2/README.md)
+* [acl-over-slf4j-logback](./acl-over-slf4j-logback/README.md)
+* [acl-simple](./acl-simple/README.md)
+* [jul](./jul/README.md)
+* [jul-over-slf4j-logback](./jul-over-slf4j-logback/README.md)
+* [log4j](./log4j/README.md)
+* [log4j-over-slf4j-logback](./log4j-over-slf4j-logback/README.md)
+* [log4j2](./log4j2/README.md)
+* [log4j2-over-slf4j-logback](./log4j2-over-slf4j-logback/README.md)
+* [logback](./logback/README.md)
+* [slf4j-over-jul](./slf4j-over-jul/README.md)
+* [slf4j-over-log4j](./slf4j-over-log4j/README.md)
+* [slf4j-over-log4j2](./slf4j-over-log4j2/README.md)
+* [slf4j-over-logback](./slf4j-over-logback/README.md)
+* [slf4j-simple](./slf4j-simple/README.md)
