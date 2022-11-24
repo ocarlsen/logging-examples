@@ -8,9 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>slf4j-over-logback</artifactId>
+    <artifactId>slf4j-via-logback</artifactId>
 
-    <name>slf4j-over-logback</name>
+    <name>slf4j-via-logback</name>
 
     <properties>
         <slf4j-api.version>1.7.7</slf4j-api.version>

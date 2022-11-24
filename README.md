@@ -10,6 +10,6 @@
 * [logback](./logback/README.md)
 * [slf4j-via-jul](./slf4j-via-jul/README.md)
 * [slf4j-via-log4j](./slf4j-via-log4j/README.md)
-* [slf4j-via-log4j2](slf4j/slf4j-over-log4j2/README.md)
-* [slf4j-over-logback](slf4j/slf4j-over-logback/README.md)
+* [slf4j-via-log4j2](slf4j/slf4j-via-log4j2/README.md)
+* [slf4j-via-logback](slf4j/slf4j-via-logback/README.md)
 * [slf4j-simple](slf4j/slf4j-simple/README.md)
