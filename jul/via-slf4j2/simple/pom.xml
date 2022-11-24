@@ -4,13 +4,13 @@
 
     <parent>
         <groupId>com.ocarlsen.logging.example</groupId>
-        <artifactId>jul-via-slf4j</artifactId>
+        <artifactId>jul-via-slf4j2</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jul-via-slf4j-simple</artifactId>
+    <artifactId>jul-via-slf4j2-simple</artifactId>
 
-    <name>jul-via-slf4j-simple</name>
+    <name>jul-via-slf4j2-simple</name>
 
     <dependencies>
         <dependency>

@@ -6,19 +6,21 @@
 
     <parent>
         <groupId>com.ocarlsen.logging.example</groupId>
-        <artifactId>logging-examples</artifactId>
+        <artifactId>jul</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jul</artifactId>
-
-    <name>jul</name>
+    <artifactId>jul-via-slf4j2</artifactId>
     <packaging>pom</packaging>
 
-    <modules>
-        <module>simple</module>
-        <module>via-slf4j</module>
-        <module>via-slf4j2</module>
-    </modules>
+    <name>jul-via-slf4j2</name>
 
+    <properties>
+        <slf4j.version>2.0.0</slf4j.version>
+    </properties>
+
+    <modules>
+        <module>logback</module>
+        <module>simple</module>
+    </modules>
 </project>
