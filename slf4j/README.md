@@ -1,8 +1,8 @@
 # Logging Examples
 
-## ACL
+## SLF4J
 
-Examples using [Apache Commons Logging](https://en.wikipedia.org/wiki/Apache_Commons_Logging) framework.
+Examples using [SLF4J](https://en.wikipedia.org/wiki/SLF4J) logging framework.
 
 * [via-jul](./via-jul/README.md)
 * [via-log4j](./via-log4j/README.md)

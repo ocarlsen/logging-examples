@@ -1,4 +1,8 @@
-# slf4j-over-log4j2
+# Logging Examples
+
+## SLF4J
+
+### Simple
 
 Demo app showcasing [SLF4J](https://en.wikipedia.org/wiki/SLF4J) logging framework
-with a Log4j2 binding.
+with a SimpleLogger binding.
