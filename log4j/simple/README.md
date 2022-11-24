@@ -1,3 +1,7 @@
-# log4j
+# Logging Examples
 
-Demo app showcasing [Log4j](https://en.wikipedia.org/wiki/Log4j) logging framework.
+## Log4j
+
+### Simple
+
+Demo app showcasing [Log4j](../README.md) logging framework.

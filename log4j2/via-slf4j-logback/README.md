@@ -1,5 +1,9 @@
-# log4j2-via-slf4j-logback
+# Logging Examples
 
-Demo app showcasing [Log4j2](https://en.wikipedia.org/wiki/Log4j#Apache_Log4j_2) logging framework
+## Log4j2
+
+### Via SLF4J Logback
+
+Demo app showcasing [Log4j2](../README.md) logging framework
 bridge to SLF4J framework
-with a Logback binding.
+backed by Logback implementation.
