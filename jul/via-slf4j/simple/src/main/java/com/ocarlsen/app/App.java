@@ -1,13 +1,11 @@
 package com.ocarlsen.app;
 
-import com.ocarlsen.app.util.LogUtil;
 
-import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * Demo app showcasing Java logging framework.
+ * Demo app showcasing JUL logging bridge to SLF4J framework.
  */
 public class App {
 
@@ -32,9 +30,7 @@ public class App {
         logger.log(Level.WARNING, ex.getMessage(), ex);
     }
 
-    public static void main(String[] args) throws IOException {
-        // Could also set 'java.util.logging.config.file' system property on command line.
-        LogUtil.configureFrom("logging.properties");
+    public static void main(String[] args) {
         new App().demoLogger();
     }
 }

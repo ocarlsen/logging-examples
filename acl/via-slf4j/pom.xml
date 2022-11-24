@@ -13,6 +13,8 @@
     <artifactId>acl-via-slf4j</artifactId>
     <packaging>pom</packaging>
 
+    <name>acl-via-slf4j</name>
+
     <properties>
         <slf4j.version>1.7.28</slf4j.version>
     </properties>

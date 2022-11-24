@@ -7,14 +7,14 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * Demo app showcasing Java logging bridge to SLF4J framework.
+ * Demo app showcasing JUL logging bridge to SLF4J framework.
  */
 public class App {
 
     private final Logger logger;
 
     public App() {
-        logger = Logger.getLogger(App.class.getName());
+        logger = Logger.getLogger(getClass().getName());
     }
 
     private void demoLogger() {
@@ -34,7 +34,7 @@ public class App {
 
     /**
      * "Contrary to other bridging modules, namely acl-via-slf4j and log4j-via-slf4j,
-     * which reimplement ACL and respectively log4j, the jul-to-slf4j module does not reimplement
+     * which reimplement ACL and Log4J respectively, the jul-via-slf4j module does not reimplement
      * the java.util.logging because packages under the java.* namespace cannot be replaced."
      *
      * @link https://www.slf4j.org/legacy.html#jul-to-slf4j
