@@ -33,7 +33,7 @@ public class App {
     }
 
     /**
-     * "Contrary to other bridging modules, namely acl-over-slf4j and log4j-over-slf4j,
+     * "Contrary to other bridging modules, namely acl-via-slf4j and log4j-via-slf4j,
      * which reimplement ACL and respectively log4j, the jul-to-slf4j module does not reimplement
      * the java.util.logging because packages under the java.* namespace cannot be replaced."
      *

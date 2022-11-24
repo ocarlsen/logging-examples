@@ -67,11 +67,11 @@
     <modules>
         <module>acl</module>
         <module>jul</module>
-        <module>jul-over-slf4j-logback</module>
+        <module>jul-via-slf4j-logback</module>
         <module>log4j</module>
-        <module>log4j-over-slf4j-logback</module>
+        <module>log4j-via-slf4j-logback</module>
         <module>log4j2</module>
-        <module>log4j2-over-slf4j-logback</module>
+        <module>log4j2-via-slf4j-logback</module>
         <module>logback</module>
         <module>slf4j</module>
         <module>slf4j2</module>
