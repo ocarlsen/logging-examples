@@ -67,7 +67,6 @@
     <modules>
         <module>acl</module>
         <module>jul</module>
-        <module>jul-via-slf4j-logback</module>
         <module>log4j</module>
         <module>log4j-via-slf4j-logback</module>
         <module>log4j2</module>
