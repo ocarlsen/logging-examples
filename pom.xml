@@ -74,6 +74,7 @@
         <module>log4j2-over-slf4j-logback</module>
         <module>logback</module>
         <module>slf4j</module>
+        <module>slf4j2</module>
     </modules>
 
 </project>
