@@ -12,20 +12,11 @@
 
     <name>slf4j-simple</name>
 
-    <properties>
-        <slf4j-api.version>1.7.1</slf4j-api.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>${slf4j-api.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>${slf4j-api.version}</version>
+            <version>${slf4j.version}</version>
         </dependency>
     </dependencies>
 
