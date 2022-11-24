@@ -1,11 +1,11 @@
 # Logging Examples
 
-## Log4J
+## Log4J2
 
-### Via SLF4J
+### Via SLF4J2
 
 #### Simple
 
-Demo app showcasing Log4J framework
-via [SLF4J](../README.md)
+Demo app showcasing Log4J2 framework
+via [SLF4J2](../README.md)
 with a Simple binding.

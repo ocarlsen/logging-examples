@@ -4,5 +4,5 @@
 
 ### Simple
 
-Demo app showcasing 
+Demo app showcasing [Apache Commons Logging](../README.md) framework
 with SimpleLog.
