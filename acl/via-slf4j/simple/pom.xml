@@ -10,6 +10,8 @@
 
     <artifactId>acl-via-slf4j-simple</artifactId>
 
+    <name>acl-via-slf4j-simple</name>
+
     <dependencies>
         <dependency>
             <groupId>org.slf4j</groupId>

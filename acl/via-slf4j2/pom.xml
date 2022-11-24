@@ -6,19 +6,29 @@
 
     <parent>
         <groupId>com.ocarlsen.logging.example</groupId>
-        <artifactId>logging-examples</artifactId>
+        <artifactId>acl</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>acl</artifactId>
+    <artifactId>acl-via-slf4j2</artifactId>
     <packaging>pom</packaging>
 
+    <name>acl-via-slf4j2</name>
+
+    <properties>
+        <slf4j.version>2.0.0</slf4j.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+    </dependencies>
+
     <modules>
+        <module>logback</module>
         <module>simple</module>
-        <module>via-jul</module>
-        <module>via-log4j</module>
-        <module>via-log4j2</module>
-        <module>via-slf4j</module>
-        <module>via-slf4j2</module>
     </modules>
 </project>
