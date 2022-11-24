@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jul-over-slf4j-logback</artifactId>
+    <artifactId>jul-via-slf4j-logback</artifactId>
 
     <name>jul-over-slf4j-logback</name>
 

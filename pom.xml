@@ -65,13 +65,9 @@
     </build>
 
     <modules>
+        <module>acl</module>
         <module>jul</module>
         <module>jul-over-slf4j-logback</module>
-        <module>acl-over-jul</module>
-        <module>acl-over-log4j</module>
-        <module>acl-over-log4j2</module>
-        <module>acl-over-slf4j-logback</module>
-        <module>acl-simple</module>
         <module>log4j</module>
         <module>log4j-over-slf4j-logback</module>
         <module>log4j2</module>

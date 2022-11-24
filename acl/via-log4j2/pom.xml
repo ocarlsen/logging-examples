@@ -4,13 +4,17 @@
 
     <parent>
         <groupId>com.ocarlsen.logging.example</groupId>
-        <artifactId>logging-examples</artifactId>
+        <artifactId>acl</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>acl-over-log4j</artifactId>
+    <artifactId>acl-via-log4j2</artifactId>
 
-    <name>acl-over-log4j</name>
+    <name>acl-via-log4j2</name>
+
+    <properties>
+        <log4j-core.version>2.8.2</log4j-core.version>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -19,10 +23,14 @@
             <version>1.2</version>
         </dependency>
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j-core.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-jcl</artifactId>
+            <version>${log4j-core.version}</version>
         </dependency>
     </dependencies>
-
 </project>

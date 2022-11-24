@@ -4,13 +4,13 @@
 
     <parent>
         <groupId>com.ocarlsen.logging.example</groupId>
-        <artifactId>logging-examples</artifactId>
+        <artifactId>acl</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>acl-simple</artifactId>
+    <artifactId>acl-via-jul</artifactId>
 
-    <name>acl-simple</name>
+    <name>acl-via-jul</name>
 
     <dependencies>
         <dependency>
