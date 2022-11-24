@@ -11,7 +11,7 @@ public class App {
 
     private final Logger logger;
 
-    public App() {
+    private App() {
         logger = Logger.getLogger(getClass().getName());
     }
 

@@ -6,30 +6,30 @@
 
     <parent>
         <groupId>com.ocarlsen.logging.example</groupId>
-        <artifactId>logging-examples</artifactId>
+        <artifactId>log4j2</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>log4j</artifactId>
+    <artifactId>log4j2-via-slf4j</artifactId>
     <packaging>pom</packaging>
 
-    <name>log4j</name>
+    <name>log4j2-via-slf4j</name>
 
     <properties>
-        <log4j.version>1.2.17</log4j.version>
+        <slf4j.version>1.7.28</slf4j.version>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>${log4j.version}</version>
+            <groupId>org.slf4j</groupId>
+            <artifactId>log4j-over-slf4j</artifactId>
+            <version>${slf4j.version}</version>
         </dependency>
     </dependencies>
 
     <modules>
+        <module>logback</module>
         <module>simple</module>
-        <module>via-slf4j</module>
     </modules>
 
 </project>

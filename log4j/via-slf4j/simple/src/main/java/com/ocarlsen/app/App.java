@@ -1,6 +1,5 @@
 package com.ocarlsen.app;
 
-
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -11,7 +10,7 @@ public class App {
 
     private final Logger logger;
 
-    public App() {
+    private App() {
         logger = Logger.getLogger(getClass().getName());
     }
 

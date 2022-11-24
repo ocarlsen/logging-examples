@@ -11,7 +11,7 @@ public class App {
     private final Logger logger;
 
     private App() {
-        this.logger = LogManager.getLogger(getClass());
+        logger = LogManager.getLogger(getClass());
     }
 
     private void demoLogger() {

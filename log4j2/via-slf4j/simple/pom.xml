@@ -4,12 +4,18 @@
 
     <parent>
         <groupId>com.ocarlsen.logging.example</groupId>
-        <artifactId>log4j2</artifactId>
+        <artifactId>log4j2-via-slf4j</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>log4j2-simple</artifactId>
+    <artifactId>log4j2-via-slf4j-simple</artifactId>
 
-    <name>log4j2-simple</name>
+    <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

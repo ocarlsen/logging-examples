@@ -13,6 +13,8 @@
     <artifactId>log4j2</artifactId>
     <packaging>pom</packaging>
 
+    <name>log42</name>
+
     <properties>
         <log4j2.version>2.6.1</log4j2.version>
     </properties>
@@ -27,7 +29,7 @@
 
     <modules>
         <module>simple</module>
-        <module>via-slf4j-logback</module>
+        <module>via-slf4j</module>
     </modules>
 
 </project>
