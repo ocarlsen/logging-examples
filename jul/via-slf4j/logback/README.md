@@ -2,8 +2,10 @@
 
 ## JUL
 
-### Via SLF4J w/ Logback
+### Via SLF4J
 
-Demo app showcasing [Java Logging Framework](../../README.md)
-bridge to SLF4J framework
+#### Logback
+
+Demo app showcasing Java Util Logging framework
+bridge to [SLF4J](../README.md)
 with a Logback binding.

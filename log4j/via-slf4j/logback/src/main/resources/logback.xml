@@ -2,6 +2,16 @@
 
 <configuration>
 
+    <!--
+    Address performance concern with jul-to-slf4j.
+
+    https://www.slf4j.org/api/org/slf4j/bridge/SLF4JBridgeHandler.html
+    https://logback.qos.ch/manual/configuration.html#LevelChangePropagator
+     -->
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+        <resetJUL>true</resetJUL>
+    </contextListener>
+
     <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <File>app.log</File>
         <encoder>

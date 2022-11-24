@@ -11,6 +11,8 @@
     </parent>
 
     <artifactId>log4j</artifactId>
+
+    <name>log4j</name>
     <packaging>pom</packaging>
 
     <properties>
@@ -27,7 +29,7 @@
 
     <modules>
         <module>simple</module>
-        <module>via-slf4j-logback</module>
+        <module>via-slf4j</module>
     </modules>
 
 </project>
