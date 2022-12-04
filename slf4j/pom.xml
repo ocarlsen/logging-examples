@@ -13,6 +13,9 @@
     <artifactId>slf4j</artifactId>
     <packaging>pom</packaging>
 
+    <name>slf4j</name>
+    <description>slf4j</description>
+
     <properties>
         <slf4j.version>1.7.28</slf4j.version>
     </properties>

@@ -11,9 +11,10 @@
     <artifactId>jul-via-slf4j2-logback</artifactId>
 
     <name>jul-via-slf4j2-logback</name>
+    <description>jul-via-slf4j2-logback</description>
 
     <properties>
-        <logback-classic.version>1.1.7</logback-classic.version>
+        <logback-classic.version>1.2.0</logback-classic.version>
     </properties>
 
 
