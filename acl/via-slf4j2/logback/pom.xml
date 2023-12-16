@@ -14,7 +14,7 @@
     <description>acl-via-slf4j2-logback</description>
 
     <properties>
-        <logback-classic.version>1.2.0</logback-classic.version>
+        <logback-classic.version>1.2.13</logback-classic.version>
     </properties>
 
     <dependencies>
